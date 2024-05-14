@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    height: 2000px;
+}
+.logo{
+    width: 190px;
+    height: 110px;
+    
+}
+.nav{
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    bottom:655px;
+}
+.nav-area{
+    list-style: none;
+  padding: 5px;
+  margin: 5px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    padding: 5px 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-area li a:hover{
+    color: rgb(97, 138, 97);  
+
+}
+.ss{
+   position: absolute;
+   height: 500px;
+   width: 550px;
+   top:50px ;
+  
+}
+.mm{
+    position: absolute;
+    height: 500px;
+    width: 998px;
+    left: 550px;
+    top: 51PX;
+  
+}
+.nn{
+    position: absolute;
+    top: 78%;
+    width: 100%;
+}
+.dd{
+    position: absolute;
+    top: 200%;
+    width: 100%;
+}
+.cc{
+    position: absolute;
+    top: 314%;
+    
+    width: 40%;
+    height: 118%;
+}
+.ff{
+    position: absolute;
+    top: 314%;
+    left: 615px;
+}
+.rr{
+    position: absolute;
+    top: 50px;
+}
+.RR{
+   position: absolute;
+   top: 50%;
+   left: 12%;
+   width: 12%;
+   height: 7%;
+   font-size: 22px;
+   background-color: green;
+   color: white;
+   font-weight: bold;
+}
+.WW{
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    color: green;
+    font-size: 32px;
+}
+.tt{
+    position: absolute;
+    top: 105%;
+    left: 10%;
+    color:white;
+    font-size: 32px;
+}
+.uu{
+    position: absolute;
+   top: 125%;
+   left: 10%;
+   width: 12%;
+   height: 7%;
+   font-size: 22px;
+   background-color:white;
+   color:green;
+   font-weight: bold;
+}
+
+
